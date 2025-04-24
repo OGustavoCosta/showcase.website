@@ -1,0 +1,14 @@
+/* Importando Tailwind */
+@import "tailwindcss";
+
+/* Importando Componentes*/
+
+/* Importando Base */
+@import "./base/base.css";
+@import "./base/typografy.css";
+@import "./base/variables.css";
+
+/* Importando Tema */
+@import "./theme/dark-theme.css";
+
+/* Fonts */
