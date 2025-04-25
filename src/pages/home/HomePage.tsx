@@ -1,7 +1,7 @@
 /* Components */
 import CardInfo from "../../components/CardInfo"
 import CardProject from "../../components/CardProject";
-import NavBar from "../../components/navbar"
+import NavBar from "../../components/Navbar"
 
 /* Icons */
 import { Linkedin, Github, } from "lucide-react"
@@ -55,10 +55,10 @@ function HomePage(){
                             <CardInfo title={'UI/UX Design'} icon={'src/assets/icons/wireframe.svg'} alt={'wireframe'} icons={[(<CgFigma size={iconSize} />), (<SiAdobephotoshop size={iconSize}/>)]}>
                                 <p>Apaixonado em UI/UX. Crio interfaces no <strong>Figma</strong>, com suporte do <strong>Photoshop</strong>. Atualmente, estou aprendendo <strong>Illustrator</strong> para aprimorar meu processo de design.</p>
                             </CardInfo>
-                            <CardInfo title={'Desenvolvimento Front-End'} icon={'src/assets/icons/Desktop-Code.svg'} alt={'wireframe'} icons={[(<FaJsSquare size={iconSize}/>), (<FaHtml5 size={iconSize}/>), (<FaCss3Alt size={iconSize}/>), (<RiTailwindCssFill size={iconSize}/>), (<FaSass size={iconSize}/>), (<FaReact size={iconSize}/>)]}>
+                            <CardInfo title={'Desenvolvimento Front-End'} icon={'/src/assets/icons/Desktop-Code.svg'} alt={'wireframe'} icons={[(<FaJsSquare size={iconSize}/>), (<FaHtml5 size={iconSize}/>), (<FaCss3Alt size={iconSize}/>), (<RiTailwindCssFill size={iconSize}/>), (<FaSass size={iconSize}/>), (<FaReact size={iconSize}/>)]}>
                                 <p>Desenvolvo interfaces modernas e responsivas utilizando <strong>HTML</strong>, <strong>CSS</strong>, <strong>SASS</strong>, <strong>JS</strong> e <strong>TailWind</strong>. Atualmente, estou aprimorando minhas habilidades em <strong>React</strong>.</p>
                             </CardInfo>
-                            <CardInfo title={`Desenvolvimento Back-End`} icon={'src/assets/icons/server.svg'} alt={'wireframe'} icons={[(<FaNodeJs size={iconSize}/>), (<SiFastify size={iconSize}/>), (<SiDjango size={iconSize}/>), (<FaPhp size={iconSize}/>), (<BiLogoTypescript size={iconSize}/>), (<BiLogoPostgresql size={iconSize}/>)]}>
+                            <CardInfo title={`Desenvolvimento Back-End`} icon={'./src/assets/icons/server.svg'} alt={'server'} icons={[(<FaNodeJs size={iconSize}/>), (<SiFastify size={iconSize}/>), (<SiDjango size={iconSize}/>), (<FaPhp size={iconSize}/>), (<BiLogoTypescript size={iconSize}/>), (<BiLogoPostgresql size={iconSize}/>)]}>
                                 <p>Especializado em <strong>APIs REST</strong> com <strong>Node.js</strong> usando <strong>PostgreSQL</strong> e o framework <strong>Fastify</strong>. Tenho conhecimentos em <strong>Django</strong> e <strong>PHP</strong>, embora não os utilize com frequência. Atualmente, estou aprendendo <strong>TypeScript</strong>.</p>
                             </CardInfo>
                         </section>

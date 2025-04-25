@@ -1,8 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider} from 'react-router'
 
-
-
 /* Pages */
 import HomePage from '../pages/home/HomePage.tsx'
 import LinkTreePage from '../pages/LinkTreePage.tsx'
