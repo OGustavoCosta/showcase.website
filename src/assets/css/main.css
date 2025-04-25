@@ -2,6 +2,9 @@
 @import "tailwindcss";
 
 /* Importando Componentes*/
+@import "./components/list.css";
+@import "./components/button.css";
+@import "./components/card.css";
 
 /* Importando Base */
 @import "./base/base.css";
@@ -11,4 +14,28 @@
 /* Importando Tema */
 @import "./theme/dark-theme.css";
 
-/* Fonts */
+@theme{
+    --shadow-inset-custom: inset 0px 0px 50px #00000050;
+}
+
+@theme{
+    --breakpoint-xmd: 56rem;
+}
+
+/* Background size */
+.header--navigation,
+.main__background,
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section,
+.nav,
+.footer__content-container{
+    max-width: 1500px;
+    width: 100%;
+    padding-left:5%;
+    padding-right:5%;
+}

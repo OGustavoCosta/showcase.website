@@ -1,0 +1,51 @@
+.card{
+    border: 2px solid var(--color-light);
+    
+}
+
+.card--info{
+    padding: 1.5rem;
+    aspect-ratio: 4 / 4;
+    width: 320px;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+}
+
+.card--project{
+    aspect-ratio: 10 / 9;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+@media (max-width: 400px) {
+    .card--info{
+        width: 100%;
+    }
+}
+
+.card__header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.card__title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.card__content-container{
+    display: grid;
+    gap: 0.5rem;
+}
+
+.card__banner{
+    overflow: hidden;
+    
+    position: relative;
+}
+

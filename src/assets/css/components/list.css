@@ -1,0 +1,46 @@
+.nav__list,
+.hero__list{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__item,
+.hero__item{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.nav__item:not(:first-child)::before,
+.hero__item:not(:first-child)::before{
+    content: ' ';
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: var(--color-dark);
+}
+
+.hero__item:not(:first-child)::before{
+    width: 7px;
+    height: 7px;
+}
+
+@media (max-width: 400px){
+    .nav__list,
+    .hero__list{
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .nav__item,
+    .hero__item{
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .hero__item:not(:first-child)::before{
+        width: 3px;
+        height: 3px;
+    }
+}
