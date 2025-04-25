@@ -1,16 +1,16 @@
 /* Components */
 import CardInfo from "../../components/CardInfo"
 import CardProject from "../../components/CardProject"
-import NavBar from "../../components/Navbar.tsx"
+import NavBar from "../../components/navbar"
 
 /* Icons */
 import { Linkedin, Github, } from "lucide-react"
 import { FaCss3Alt, FaHtml5, FaJsSquare, FaNodeJs, FaPhp, FaReact, FaSass} from "react-icons/fa";
-import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
+import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi"
 import { CgFigma } from "react-icons/cg";
-import { SiAdobephotoshop, SiDjango, SiFastify } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
-import Footer from "../../components/Footer";
+import { SiAdobephotoshop, SiDjango, SiFastify } from "react-icons/si"
+import { RiTailwindCssFill } from "react-icons/ri"
+import Footer from "../../components/Footer"
 
 function HomePage(){
     const iconSize = 30
