@@ -1,7 +1,7 @@
 /* Components */
 import CardInfo from "../../components/CardInfo"
 import CardProject from "../../components/CardProject";
-import NavBar from "../../components/Navbar"
+import NavBar from "../../components/navbar"
 
 /* Icons */
 import { Linkedin, Github, } from "lucide-react"
