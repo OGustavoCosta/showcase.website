@@ -10,7 +10,7 @@ import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
 import { CgFigma } from "react-icons/cg";
 import { SiAdobephotoshop, SiDjango, SiFastify } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import Footer from "../../components/footer";
+import Footer from "../../components/Footer";
 
 function HomePage(){
     const iconSize = 30
