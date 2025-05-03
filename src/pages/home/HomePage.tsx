@@ -16,11 +16,12 @@ function HomePage(){
     const iconSize = 30
 
     return(
-        <div className="w-full h-screen text-light bg-amber-00">
+        <div className="w-full h-screen text-light">
             <header className="header header--navigation py-5 absolute z-5">
                 <Navigation/>
             </header>
             <main className="main">
+                {/* Hero */}
                 <section className="main__background bg-background-dark">
                     <section id="inicio" className="section section--hero w-full flex justify-center items-center min-h-[600px] relative">
                         <article className="hero flex flex-col items-center cursor-default">
@@ -32,7 +33,7 @@ function HomePage(){
                                 <li className="hero__item">Back-End</li>
                             </ul>
                         </article>
-                        <div className="media-container absolute flex gap-2 bottom-5 left-[5%]">
+                        <div className="media-container absolute flex gap-2 bottom-5 left-[5vw]">
                             <a className="button" target="_blank" href="https://github.com/OGustavoCosta/showcase.website">
                                 <Github strokeWidth={1} size={25}/>
                             </a>
@@ -79,7 +80,7 @@ function HomePage(){
                         </header>
                         <section className="section__cards grid justify-center xmd:grid-cols-2 grid-cols-1 sm:gap-3 gap-5">
                             <div className="section__main-projects ">
-                                <CardProject title={'SolarFlow - Software de Gestão Para Empresas de Energia Solar'} banner={'images/banners-projects/solarflow.png'} link={'https://solarflow.com.br/'} bannerAlt={'SolarFlow'}/>
+                                <CardProject title={'SolarFlow - Software de Gestão Para Empresas de Energia Solar'} banner={'images/banners/projects/solarflow/solarflow.png'} link={'https://solarflow.com.br/'} bannerAlt={'SolarFlow'}/>
                             </div>
                             <div className="section__aside-projects grid sm:grid-cols-2 grid-cols-1 sm:gap-3 gap-5">
                                 <CardProject title={'Lorem Ipsum Dolor'}/>

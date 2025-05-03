@@ -52,7 +52,7 @@
     .nav__mobile-nav{
         background-color: var(--color-light);
         color: var(--color-background-dark);
-        height: 100vh;
+        height: 100dvh;
         width: 90vw;
         padding-left: 5%;
         padding-top: calc(var(--spacing) * 5);

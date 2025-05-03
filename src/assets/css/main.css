@@ -9,10 +9,10 @@
 /* Importando Base */
 @import "./base/base.css";
 @import "./base/typografy.css";
-@import "./base/variables.css";
 
 /* Importando State */
 @import "./state/is-active.css";
+@import "./state/is-hidden.css";
 
 /* Importando Tema */
 @import "./theme/dark-theme.css";
@@ -34,19 +34,26 @@
     justify-content: center;
 }
 
+/* Sections Size */
 .section,
 .nav,
 .footer__content-container{
-    max-width: 1500px;
+    max-width: 1536px;
     width: 100%;
     padding-left:5%;
     padding-right:5%;
 }
 
+/* Utils */
 .glassmorphism{
     background: rgba( 0, 0, 0, 0 );
     box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.37);
     backdrop-filter: blur( 10.5px );
     -webkit-backdrop-filter: blur( 10.5px );
     border-bottom: 1px solid var(--color-background-dark);
+}
+
+/* Grid/Flex Utils */
+.grid-rows-default{
+    grid-template-rows: auto 1fr auto;
 }
