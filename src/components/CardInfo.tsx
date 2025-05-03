@@ -1,6 +1,6 @@
 function CardInfo(props: any){
     return(
-        <div className="card card--info">
+        <div key={props.id} className="card card--info">
             <header className="card__header ">
                 <img className="card__icon" src={props.icon} alt={props.alt} />
                 <h2 className="card__title break-keep">{props.title}</h2>

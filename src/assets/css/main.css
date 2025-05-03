@@ -11,6 +11,9 @@
 @import "./base/typografy.css";
 @import "./base/variables.css";
 
+/* Importando State */
+@import "./state/is-active.css";
+
 /* Importando Tema */
 @import "./theme/dark-theme.css";
 
@@ -38,4 +41,12 @@
     width: 100%;
     padding-left:5%;
     padding-right:5%;
+}
+
+.glassmorphism{
+    background: rgba( 0, 0, 0, 0 );
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-bottom: 1px solid var(--color-background-dark);
 }

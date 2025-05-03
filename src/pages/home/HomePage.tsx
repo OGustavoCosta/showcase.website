@@ -1,7 +1,7 @@
 /* Components */
 import CardInfo from "../../components/CardInfo"
 import CardProject from "../../components/CardProject"
-import NavBar from "../../components/navbar"
+import Navigation from "../../components/Navigation"
 
 /* Icons */
 import { Linkedin, Github, } from "lucide-react"
@@ -17,8 +17,8 @@ function HomePage(){
 
     return(
         <div className="w-full h-screen text-light bg-amber-00">
-            <header className="header header--navigation py-5 fixed z-5">
-                <NavBar/>
+            <header className="header header--navigation py-5 absolute z-5">
+                <Navigation/>
             </header>
             <main className="main">
                 <section className="main__background bg-background-dark">
@@ -52,13 +52,13 @@ function HomePage(){
                         </header>
                         
                         <section className="section__cards flex justify-center flex-wrap">
-                            <CardInfo title={'UI/UX Design'} icon={'icons/wireframe.svg'} alt={'wireframe'} icons={[(<CgFigma size={iconSize} />), (<SiAdobephotoshop size={iconSize}/>)]}>
+                            <CardInfo key={11} title={'UI/UX Design'} icon={'icons/wireframe.svg'} alt={'wireframe'} icons={[(<CgFigma size={iconSize} />), (<SiAdobephotoshop size={iconSize}/>)]}>
                                 <p>Apaixonado em UI/UX. Crio interfaces no <strong>Figma</strong>, com suporte do <strong>Photoshop</strong>. Atualmente, estou aprendendo <strong>Illustrator</strong> para aprimorar meu processo de design.</p>
                             </CardInfo>
-                            <CardInfo title={'Desenvolvimento Front-End'} icon={'icons/desktop-code.svg'} alt={'desktop'} icons={[(<FaJsSquare size={iconSize}/>), (<FaHtml5 size={iconSize}/>), (<FaCss3Alt size={iconSize}/>), (<RiTailwindCssFill size={iconSize}/>), (<FaSass size={iconSize}/>), (<FaReact size={iconSize}/>)]}>
+                            <CardInfo key={12} title={'Desenvolvimento Front-End'} icon={'icons/desktop-code.svg'} alt={'desktop'} icons={[(<FaJsSquare size={iconSize}/>), (<FaHtml5 size={iconSize}/>), (<FaCss3Alt size={iconSize}/>), (<RiTailwindCssFill size={iconSize}/>), (<FaSass size={iconSize}/>), (<FaReact size={iconSize}/>)]}>
                                 <p>Desenvolvo interfaces modernas e responsivas utilizando <strong>HTML</strong>, <strong>CSS</strong>, <strong>SASS</strong>, <strong>JS</strong> e <strong>TailWind</strong>. Atualmente, estou aprimorando minhas habilidades em <strong>React</strong>.</p>
                             </CardInfo>
-                            <CardInfo title={`Desenvolvimento Back-End`} icon={'icons/server.svg'} alt={'server'} icons={[(<FaNodeJs size={iconSize}/>), (<SiFastify size={iconSize}/>), (<SiDjango size={iconSize}/>), (<FaPhp size={iconSize}/>), (<BiLogoTypescript size={iconSize}/>), (<BiLogoPostgresql size={iconSize}/>)]}>
+                            <CardInfo key={13} title={`Desenvolvimento Back-End`} icon={'icons/server.svg'} alt={'server'} icons={[(<FaNodeJs size={iconSize}/>), (<SiFastify size={iconSize}/>), (<SiDjango size={iconSize}/>), (<FaPhp size={iconSize}/>), (<BiLogoTypescript size={iconSize}/>), (<BiLogoPostgresql size={iconSize}/>)]}>
                                 <p>Especializado em <strong>APIs REST</strong> com <strong>Node.js</strong> usando <strong>PostgreSQL</strong> e o framework <strong>Fastify</strong>. Tenho conhecimentos em <strong>Django</strong> e <strong>PHP</strong>, embora não os utilize com frequência. Atualmente, estou aprendendo <strong>TypeScript</strong>.</p>
                             </CardInfo>
                         </section>
@@ -100,17 +100,17 @@ function HomePage(){
                         </header>
                         
                         <section className="section__cards flex justify-center flex-wrap gap-5">
-                            <CardInfo title={'Sites e Aplicações Web'} icon={'icons/desktop-code.svg'} alt={'desktop'}>
+                            <CardInfo key={21} title={'Sites e Aplicações Web'} icon={'icons/desktop-code.svg'} alt={'desktop'}>
                                 <p><strong>Sites Institucionais:</strong> Criação de websites para empresas, com foco em design moderno e funcionalidade.</p>
                                 <p><strong>Landing Pages:</strong> Páginas de conversão otimizadas para captar leads e promover produtos ou serviços.</p>
                                 <p><strong>E-commerce:</strong> Desenvolvimento de lojas online personalizadas e responsivas.</p>
                             </CardInfo>
-                            <CardInfo title={'Design de Interfaces (UI/UX)'} icon={'icons/wireframe.svg'} alt={'wireframe'}>
+                            <CardInfo key={22} title={'Design de Interfaces (UI/UX)'} icon={'icons/wireframe.svg'} alt={'wireframe'}>
                                 <p><strong>Consultoria UX:</strong> Desenvolvimento de wireframes e protótipos no Figma para sites e aplicativos.</p>
                                 <p><strong>Landing Pages:</strong> Análise e otimização da experiência do usuário para tornar sites e apps mais intuitivos e eficientes.</p>
                                 <p><strong>Design de Interfaces para Web e Mobile:</strong> Criação de layouts e design visual com foco em estética e usabilidade.</p>
                             </CardInfo>
-                            <CardInfo title={'Manutenção e Suporte de Sites'} icon={'icons/settings.svg'} alt={'settings'}>
+                            <CardInfo  key={23} title={'Manutenção e Suporte de Sites'} icon={'icons/settings.svg'} alt={'settings'}>
                                 <p><strong>Suporte Técnico:</strong> Manutenção de sistemas, correção de bugs, e melhorias contínuas em aplicações web.</p>
                                 <p><strong>Aprimoramento de Performance:</strong> Melhoria de velocidade e performance de sites e aplicações web.</p>
                                 <p><strong>Otimização de SEO:</strong> Melhoramento da visibilidade do seu site em motores de busca (google, bing, etc.)</p>

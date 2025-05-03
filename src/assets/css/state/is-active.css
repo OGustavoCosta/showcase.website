@@ -1,0 +1,4 @@
+.nav__mobile-nav.is-active{
+    transform: translateX(0vw);
+    opacity: 1;
+}
