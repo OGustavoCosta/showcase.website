@@ -74,6 +74,10 @@
 
 /* Utilitários CSS - Nome da fonte */
 
+.font-argentum{
+    font-family: 'Argentum Sans', sans-serif;
+}
+
 .font-argentum-black {
     font-family: 'Argentum Sans', sans-serif;
     font-weight: 900;
@@ -155,6 +159,10 @@
 }
 
 /* Utilitários CSS - Pixelify Sans */
+
+.font-pixelify{
+    font-family: 'Pixelify Sans', sans-serif;
+}
 
 .font-pixelify-regular {
     font-family: 'Pixelify Sans', sans-serif;

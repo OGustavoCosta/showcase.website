@@ -1,0 +1,26 @@
+/* Animação de Linha (hover) */
+.underline-animation{
+    position: relative;
+
+    transition: all;
+    transition-duration: 0.5s;
+    padding-bottom: 2px;
+}
+
+.underline-animation::before{
+    content: '';
+    width: 0%;
+    height: 1px;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.underline-animation:hover::before{
+    width: 100%;
+    left: 0%;
+}

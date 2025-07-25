@@ -2,13 +2,14 @@
 @import "tailwindcss";
 
 /* Importando Componentes*/
-@import "./components/list.css";
+@import "./components/navigation.css";
 @import "./components/button.css";
 @import "./components/card.css";
 
 /* Importando Base */
 @import "./base/base.css";
 @import "./base/typografy.css";
+@import "./base/animation.css";
 
 /* Importando State */
 @import "./state/is-active.css";
@@ -22,35 +23,16 @@
 }
 
 @theme{
-    --breakpoint-xmd: 56rem;
-}
-
-/* Background size */
-.header--navigation,
-.main__background,
-.footer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-/* Sections Size */
-.section,
-.nav,
-.footer__content-container{
-    max-width: 1536px;
-    width: 100%;
-    padding-left:5%;
-    padding-right:5%;
+    --breakpoint-xmd: 28rem;
 }
 
 /* Utils */
 .glassmorphism{
-    background: rgba( 0, 0, 0, 0 );
-    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur( 10.5px );
-    -webkit-backdrop-filter: blur( 10.5px );
-    border-bottom: 1px solid var(--color-background-dark);
+    /* background: rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
 }
 
 /* Grid/Flex Utils */

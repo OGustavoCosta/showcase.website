@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer id="contato" className="footer bg-background-dark">
-            <div className="footer__content-container">
+            <div className="footer__background">
                 <div className="footer__content pt-10 lg:pb-10 grid justify-center gap-8 lg:grid-cols-2 grid-cols-1">
                     <div className="footer__cta">
                         <h2 className="footer__title text-3xl">Disponível para oportunidades selecionadas de freelancer</h2>

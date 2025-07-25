@@ -16,18 +16,16 @@ function HomePage(){
     const iconSize = 30
 
     return(
-        <div className="w-full h-screen text-light">
-            <header className="header header--navigation py-5 absolute z-5">
-                <Navigation/>
-            </header>
+        <div className="w-full h-screen text-light font-argentum ">
+            <Navigation/>
             <main className="main">
                 {/* Hero */}
                 <section className="main__background bg-background-dark">
                     <section id="inicio" className="section section--hero w-full flex justify-center items-center min-h-[600px] relative">
                         <article className="hero flex flex-col items-center cursor-default">
-                            <h1 className="hero__title text-dark sm:text-xl uppercase">Desenvolvedor Web</h1>
+                            <h1 className="hero__title text-dark sm uppercase">Desenvolvedor Web</h1>
                             <h2 className="hero__name uppercase lg:text-7xl text-5xl sm:text-6xl font-argentum-bold text-center">Gustavo Costa</h2>
-                            <ul className="hero__list sm:text-lg text-sm font-argentum-semibold text-dark">
+                            <ul className="hero__list text-sm font-argentum text-dark flex gap-5">
                                 <li className="hero__item">Web Designer</li>
                                 <li className="hero__item">Front-End</li>
                                 <li className="hero__item">Back-End</li>
@@ -47,9 +45,9 @@ function HomePage(){
                 {/* Expertise (Tecnologias) */}
                 <section id="tecnologias" className="main__background bg-background-light">
                     <section className="section pt-10 pb-15 grid justify-center gap-8">
-                        <header className="section__header grid justify-center">
-                            <h2 className="section__title font-argentum-bold text-5xl text-center">Expertise</h2>
-                            <h3 className="section__description text-center text-xl text-dark uppercase">Especialidades e Competências</h3>
+                        <header className="section__header grid gap-0.5 justify-center">
+                            <h2 className="section__title font-bold text-4xl md:text-5xl text-center">Expertise</h2>
+                            <h3 className="section__description text-center text-dark uppercase">Especialidades e Competências</h3>
                         </header>
                         
                         <section className="section__cards flex justify-center flex-wrap">
@@ -74,9 +72,9 @@ function HomePage(){
                 {/* Projetos */}
                 <section id="projetos" className="main__background bg-background-dark">
                     <section className="section pt-10 pb-15 grid gap-8">
-                        <header className="section__header grid w-full">
-                            <h2 className="section__title font-argentum-bold text-5xl ">Minha Jornada <strong className="font-argentum-bold">Criativa</strong></h2>
-                            <h3 className="section__description text-xl text-dark uppercase"><strong>Aqui estão alguns dos projetos que desenvolvi</strong>, cada um Explorando como a tecnologia e o design se encontram para criar experiências únicas.</h3>
+                        <header className="section__header grid gap-0.5 w-full">
+                            <h2 className="section__title font-bold text-4xl md:text-5xl ">Minha Jornada <strong className="font-argentum-bold">Criativa</strong></h2>
+                            <h3 className="section__description text-dark uppercase"><strong>Aqui estão alguns dos projetos que desenvolvi</strong>, cada um Explorando como a tecnologia e o design se encontram para criar experiências únicas.</h3>
                         </header>
                         <section className="section__cards grid justify-center xmd:grid-cols-2 grid-cols-1 sm:gap-3 gap-5">
                             <div className="section__main-projects ">
@@ -95,9 +93,9 @@ function HomePage(){
                 {/* Serviços */}
                 <section id="servicos" className="main__background bg-background-light">
                     <section className="section pt-10 pb-15 grid justify-center gap-8">
-                    <header className="section__header grid justify-center">
-                            <h2 className="section__title font-argentum-bold text-5xl text-center">Soluções Sob Media</h2>
-                            <h3 className="section__description text-center text-xl text-dark uppercase">O que posso realizar por você?</h3>
+                    <header className="section__header grid gap-0.5 justify-center">
+                            <h2 className="section__title font-bold text-4xl md:text-5xl text-center">Soluções Sob Media</h2>
+                            <h3 className="section__description text-center text-dark uppercase">O que posso realizar por você?</h3>
                         </header>
                         
                         <section className="section__cards flex justify-center flex-wrap gap-5">
