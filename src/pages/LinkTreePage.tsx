@@ -1,5 +1,5 @@
 import Footer from "../components/Footer"
-import ButtonTree from "../components/ButtonTree"
+import ButtonTree from "../components/buttons/ButtonTree"
 import { AppWindow, FileUser, Github, Instagram, Linkedin, Smartphone } from "lucide-react"
 
 function LinkTreePage(){
