@@ -7,6 +7,7 @@ import HomeServices from "./HomeServices";
 
 /* Icons */
 import { Linkedin, Github, } from "lucide-react"
+import ButtonCTA from "../../components/buttons/ButtonCTA";
 
 function HomePage(){
 
@@ -46,9 +47,7 @@ function HomePage(){
                         </header>
                         <HomeSkills/>
                         <section className="section__button flex justify-center">
-                            <a target="_blank" className="button button--cta" href="https://wa.me/+5577999199124?text=Ol%C3%A1%20Gustavo!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento!" >
-                                Entre em Contato
-                            </a>
+                            <ButtonCTA/>
                         </section>
                     </section>
                 </section>
@@ -84,9 +83,7 @@ function HomePage(){
                         
                         <HomeServices/>
                         <section className="section__button-container flex justify-center">
-                            <a target="_blank" href="https://wa.me/+5577999199124?text=Ol%C3%A1%20Gustavo!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento!" className="button button--cta">
-                                Entre em Contato
-                            </a>
+                            <ButtonCTA/>
                         </section>
                     </section>
                 </section>

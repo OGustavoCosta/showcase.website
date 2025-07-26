@@ -25,7 +25,7 @@ function LinkTreePage(){
                 <section className="main__background bg-background-light">
                     <section className="section grid justify-items-center gap-3.5 py-5">
                         <h2 className="section__title">Conheça Meu Trabalho</h2>
-                        <div className="section__options grid gap-4">
+                        <div className="section__options grid gap-4 w-full justify-items-center">
                             <ButtonTree key={1} icon={(<AppWindow />)} text={'Portfolio Web'} link={'https://www.gustavocosta.me/'}/>
                             <ButtonTree key={2} icon={(<Linkedin />)} text={'Linkedin'} link={'https://www.linkedin.com/in/gustavosncosta/'}/>
                             <ButtonTree key={3} icon={(<Github />)} text={'GitHub'} link={'https://github.com/OGustavoCosta'}/>
@@ -37,7 +37,7 @@ function LinkTreePage(){
                 <section className="main__background bg-background-light is-hidden">
                     <section className="section grid justify-items-center gap-3.5 py-5">
                         <h2 className="section__title">Currículo</h2>
-                        <div className="section__options grid gap-4">
+                        <div className="section__options grid gap-4 w-full justify-items-center">
                             <ButtonTree key={4} icon={(<FileUser />)} text={'Currículo'} link={'https://drive.google.com/file/d/1KDHo2yLfdbHw93YULkb-xzKn0GOWRqqb/view?usp=sharing'}/>
                             <ButtonTree key={5} icon={(<FileUser />)} text={'Curriculo Lattes'} link={'http://lattes.cnpq.br/4638970324861784'}/>
                         </div>
@@ -48,7 +48,7 @@ function LinkTreePage(){
                 <section className="main__background bg-background-light">
                     <section className="section grid justify-items-center gap-3.5 pt-5 pb-30">
                         <h2 className="section__title">Entre Em Contato</h2>
-                        <div className="section__options grid gap-4">
+                        <div className="section__options grid gap-4 w-full justify-items-center">
                             <ButtonTree key={6} icon={(<Smartphone />)} text={'WhatsApp'} link={'https://wa.me/+5577999199124?text=Ol%C3%A1%20Gustavo!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento!'}/>
                             <ButtonTree key={7} icon={(<Instagram />)} text={'Instagram'} link={'https://www.instagram.com/gustavocosta.dev/'}/>
                         </div>
