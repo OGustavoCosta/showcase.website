@@ -4,8 +4,8 @@ function Footer(){
             <div className="footer__background">
                 <div className="footer__content pt-10 lg:pb-10 grid justify-center gap-8 lg:grid-cols-2 grid-cols-1">
                     <div className="footer__cta">
-                        <h2 className="footer__title text-3xl">Disponível para oportunidades selecionadas de freelancer</h2>
-                        <p className="footer__description uppercase"><strong>Tem um projeto interessante e precisa de ajuda?</strong> Envie-me um e-mail ou entre em contato pelas redes sociais!</p>
+                        <h2 className="footer__title text-2xl md:text-3xl">Disponível para oportunidades selecionadas de freelancer</h2>
+                        <p className="footer__description uppercase text-sm md:text-base"><strong>Tem um projeto interessante e precisa de ajuda?</strong> Envie-me um e-mail ou entre em contato pelas redes sociais!</p>
                     </div>
                     <   div className="footer__contact flex flex-col lg:items-end items-center justify-end gap-2">
                         <p className="text-left">gustavosncosta@gmail.com</p>

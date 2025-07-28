@@ -8,6 +8,7 @@ import HomeServices from "./HomeServices";
 /* Icons */
 import { Linkedin, Github, } from "lucide-react"
 import ButtonCTA from "../../components/buttons/ButtonCTA";
+import ButtonShort from "../../components/buttons/ButtonShort";
 
 function HomePage(){
 
@@ -28,12 +29,8 @@ function HomePage(){
                             </ul>
                         </article>
                         <div className="media-container absolute flex gap-2 bottom-5 left-[5vw]">
-                            <a className="button" target="_blank" href="https://github.com/OGustavoCosta/showcase.website">
-                                <Github strokeWidth={1} size={25}/>
-                            </a>
-                            <a className="button" target="_blank" href="https://www.linkedin.com/in/gustavosncosta">
-                                <Linkedin strokeWidth={1} size={25}/>
-                            </a>
+                            <ButtonShort link={'https://github.com/OGustavoCosta/showcase.website'} icon={<Github strokeWidth={1} size={25}/>} />
+                            <ButtonShort link={'https://www.linkedin.com/in/gustavosncosta'} icon={<Linkedin strokeWidth={1} size={25}/>} />
                         </div>
                     </section>
                 </section>

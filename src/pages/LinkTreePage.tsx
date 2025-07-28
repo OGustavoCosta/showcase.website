@@ -6,9 +6,7 @@ function LinkTreePage(){
     return(
         <div className="grid grid-rows-default w-full min-h-screen text-light bg-background-light">
             <header className="header grid justify-items-center max-h-[420px]">
-                <div className="header__banner w-full h-35 md:h-56 bg-background-dark overflow-hidden">
-                    <img className="object-cover w-full h-full hidden md:block" src="images/banners/linktree/v4.JPG" alt="" />
-                    <img className="object-cover w-full h-full md:hidden block" src="images/banners/linktree/v3.JPG" alt="" />
+                <div className="header__banner w-full h-35 md:h-56 bg-background-dark overflow-hidden bg-cover bg-center bg-[url(/images/banners/linktree/v5.JPG)] md:bg-[url(/images/banners/linktree/v6.JPG)] ">
                 </div>
                 <div className="header__profile translate-y-[-40%] grid justify-items-center gap-4">
                     <div className="header__picture w-35 md:w-50 aspect-square bg-background-dark overflow-hidden rounded-full">
