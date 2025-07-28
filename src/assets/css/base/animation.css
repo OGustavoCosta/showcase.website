@@ -24,3 +24,32 @@
     width: 100%;
     left: 0%;
 }
+
+/* Animação de preenchimento (left to right) */
+.fill-animation-left-to-right{
+    position: relative;
+}
+
+.fill-animation-left-to-right::before{
+    content: '';
+    z-index: 0;
+    width: 0%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.fill-animation-left-to-right:hover::before{
+    width: 100%;
+}
+
+.fill-icon-animation{
+    transform: translateX(-10%);
+    transition: all;
+    transition-duration: 0.5s;
+}
