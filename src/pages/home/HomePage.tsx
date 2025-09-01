@@ -28,7 +28,7 @@ function HomePage(){
                                 <li className="hero__item">Back-End</li>
                             </ul>
                         </article>
-                        <div className="media-container absolute flex gap-2 bottom-5 left-[5vw]">
+                        <div className="media-container absolute flex gap-2 bottom-5 left-0">
                             <ButtonShort link={'https://github.com/OGustavoCosta/showcase.website'} icon={<Github strokeWidth={1} size={25}/>} />
                             <ButtonShort link={'https://www.linkedin.com/in/gustavosncosta'} icon={<Linkedin strokeWidth={1} size={25}/>} />
                         </div>
